@@ -1,0 +1,19 @@
+.btn-main {
+  border-radius: 5px !important; }
+
+div .btn-main {
+  border-radius: 1px; }
+
+.button-primary {
+  background-color: blue;
+  border-radius: 5px;
+  color: black; }
+
+button {
+  background-color: red; }
+
+#buttons button:hover {
+  background-color: white; }
+
+div #buttons .button-primary {
+  background-color: green; }

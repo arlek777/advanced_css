@@ -1,0 +1,41 @@
+// Importance
+.btn-main {
+    border-radius: 5px !important;
+}
+
+div .btn-main {
+    border-radius: 1px;
+}
+
+// Specificity
+// (0, 0, 1, 0)
+.button-primary {
+    background-color: blue;
+    border-radius: 5px;
+    color: black;
+}
+
+// (0, 0, 0, 1)
+button {
+    background-color: red;
+}
+
+// (0, 1, 1, 1) 
+#button-blocks button:hover {
+    background-color: white;
+}
+
+// (0, 1, 1, 2)
+div #button-blocks button.button-primary {
+    background-color: green;
+}
+
+/* 
+Inline Style  ID  Class  Elements
+(     0,      0,    1,     0     )
+(     0,      0,    0,     1     )
+(     0,      1,    1,     1     ) 
+(     0,      1,    1,     2     )
+*/
+
+
