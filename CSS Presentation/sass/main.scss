@@ -42,7 +42,7 @@ Inline Style  ID  Class  Elements
 
 html, body {
     font-size: 16px;
-    width: 80vw;
+    //width: 80vw;
 }
 
 header {
@@ -91,4 +91,23 @@ header {
 
 .common-buttons__btn--small {
     font-size: 10px;
+}
+
+// BOX MODEL
+.block {
+    margin-top: 20px;
+}
+
+.inline {
+    margin-top: 20px;
+    height: 20px;
+    width: 290px;
+    background-color: red;
+}
+
+.inline-block {
+    margin-top: 20px;
+    height: 20px;
+    width: 290px;
+    background-color: red;
 }
