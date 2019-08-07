@@ -12,8 +12,56 @@ div .btn-main {
 button {
   background-color: red; }
 
-#buttons button:hover {
+#buttonsBlock button:hover {
   background-color: white; }
 
-div #buttons .button-primary {
+div #buttonsBlock button.button-primary {
   background-color: green; }
+
+/* 
+Inline Style  ID  Class  Elements
+(     0,      0,    1,     0     )
+(     0,      0,    0,     1     )
+(     0,      1,    1,     1     ) 
+(     0,      1,    1,     2     )
+*/
+html, body {
+  font-size: 16px;
+  width: 80vw; }
+
+header {
+  border: 1px solid gray;
+  font-size: 150%;
+  padding: 2em;
+  margin-bottom: 10rem;
+  height: 90vh;
+  width: 1000px; }
+
+.header-child {
+  border: 1px solid gray;
+  font-size: 3em;
+  padding: 10%; }
+
+.contact-form {
+  padding: 10px;
+  border: 1px solid green; }
+
+.contact-form__general-info {
+  float: left; }
+
+.contact-form__address-info {
+  float: right; }
+
+.common-buttons {
+  padding: 10px;
+  border: 1px solid red; }
+
+.common-buttons__btn {
+  background-color: initial;
+  font-size: 14px; }
+
+.common-buttons__btn--big {
+  font-size: 20px; }
+
+.common-buttons__btn--small {
+  font-size: 10px; }
