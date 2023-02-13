@@ -1,3 +1,3 @@
 # advanced_css
 
-Tasks for advanced_css course.
+Practice advanced CSS technics. 
